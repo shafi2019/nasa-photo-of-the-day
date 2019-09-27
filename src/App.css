@@ -45,6 +45,6 @@
 .dropdown {
   display: flex;
   justify-content: space-between;
-  width: 30%;
-  margin: 4% 0% 2% 0%;
+  width: 300px;
+  margin: 20px 0px 10px 0px;
 }
