@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
 .Card--Body {
   background-image: url('https://images.pexels.com/photos/1226302/pexels-photo-1226302.jpeg?cs=srgb&dl=fern-free-wallpaper-frond-1226302.jpg&fm=jpg');
   color: aliceblue;
