@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
-import NasaCard from "./NasaCard2";
+import NasaCard from "./NasaCardTwo";
 import axios from "axios";
 import styled from "styled-components";
+
+
+
 export default function NasaCardOne() {
 
     const [nasa, setNasa] = useState({});
@@ -31,16 +34,17 @@ export default function NasaCardOne() {
     }, []);
 
     return (
-    
+
         <div className="container">
-        <NasaCard
-        hdurl={nasa.hdurl}
-        title={nasa.title}
-        date={nasa.date}
-        explanation={nasa.explanation}
-        copyright={nasa.copyright}
-    />
-    <NasaButton>See More</NasaButton>
-</div>
-);
+
+            <NasaCard
+                hdurl={nasa.hdurl}
+                title={nasa.title}
+                date={nasa.date}
+                explanation={nasa.explanation}
+                copyright={nasa.copyright}
+            />
+          
+        </div>
+    );
 }
